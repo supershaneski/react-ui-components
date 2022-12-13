@@ -24,6 +24,14 @@ Use `Storybook` to check the components.
 ![screenshot 7](./docs/phoneinput7.png "screenshot 7")
 ![screenshot 8](./docs/phoneinput8.png "screenshot 8")
 
+# ChristmasText
+
+![screenshot 1](./docs/christmastext1.png "screenshot 1")
+![screenshot 2](./docs/christmastext2.png "screenshot 2")
+![screenshot 3](./docs/christmastext3.png "screenshot 3")
+![screenshot 4](./docs/christmastext4.png "screenshot 4")
+![screenshot 5](./docs/christmastext5.png "screenshot 5")
+
 # Custom Hooks
 
 These are the list of custom hooks and the screenshots of `prompts` and exhcanges used to generate them from `ChatGPT`. The generated codes are then modified and updated to make suit my expectations.
