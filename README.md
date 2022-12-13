@@ -24,13 +24,22 @@ Use `Storybook` to check the components.
 ![screenshot 7](./docs/phoneinput7.png "screenshot 7")
 ![screenshot 8](./docs/phoneinput8.png "screenshot 8")
 
-# ChristmasText
+## ChristmasText
 
 ![screenshot 1](./docs/christmastext1.png "screenshot 1")
 ![screenshot 2](./docs/christmastext2.png "screenshot 2")
 ![screenshot 3](./docs/christmastext3.png "screenshot 3")
 ![screenshot 4](./docs/christmastext4.png "screenshot 4")
 ![screenshot 5](./docs/christmastext5.png "screenshot 5")
+
+## Marquee
+
+![screenshot 1](./docs/marquee1.png "screenshot 1")
+![screenshot 2](./docs/marquee2.png "screenshot 2")
+![screenshot 3](./docs/marquee3.png "screenshot 3")
+![screenshot 4](./docs/marquee4.png "screenshot 4")
+![screenshot 5](./docs/marquee5.png "screenshot 5")
+![screenshot 6](./docs/marquee6.png "screenshot 6")
 
 # Custom Hooks
 
