@@ -1,12 +1,11 @@
 import React from 'react';
 
-import ChristmasText from './ChristmasText';
 import Marquee from './Marquee';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
-  title: 'UI-Components/ChristmasText',
-  component: ChristmasText,
+  title: 'UI-Components/Marquee',
+  component: Marquee,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   //argTypes: {
   //  backgroundColor: { control: 'color' },
@@ -14,16 +13,7 @@ export default {
 };
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
-const Template = (args) => <ChristmasText {...args}>Merry Christmas!</ChristmasText>;
-
-export const DefaultMode = Template.bind({});
-
-export const WithSpeedValue = Template.bind({});
-WithSpeedValue.args = {
-    speed: 100,
-};
-
-const Template2 = (args) => {
+const Template = (args) => {
     return (
         <div style={{
             //backgroundColor: 'pink',
@@ -32,13 +22,16 @@ const Template2 = (args) => {
             height: '24px',
             overflow: 'hidden',
         }}>
-            <Marquee>
-                <ChristmasText {...args}>MERRY CHRISTMAS & HAPPY NEW YEAR!</ChristmasText>
-            </Marquee>
+            <Marquee {...args}>Merry Christmas!</Marquee>
         </div>
     )
+
 }
-export const WithMarquee = Template2.bind({});
-WithMarquee.args = {
-    speed: 100,
+
+export const DefaultMode = Template.bind({});
+
+export const Need4Speed = Template.bind({});
+Need4Speed.args = {
+    speed: 10,
 };
+

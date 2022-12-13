@@ -6,7 +6,7 @@ class ChristmasText extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      colors: ['red', 'green', 'white'],
+      colors: ['red', 'green', 'white', 'yellow'],
       currentColorIndex: 0
     };
   }
@@ -22,7 +22,7 @@ class ChristmasText extends React.Component {
   render() {
 
     const characters = this.props.children.split('');
-    
+
     const characterElements = characters.map((character, index) => {
       const colorIndex = (this.state.currentColorIndex + index) % this.state.colors.length;
       return <span key={index} style={{color: this.state.colors[colorIndex]}}>{character}</span>;

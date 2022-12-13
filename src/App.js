@@ -1,18 +1,19 @@
 import React from 'react'
 
-import useElementWidth from './hooks/useElementWidth';
+//import useElementWidth from './hooks/useElementWidth';
+
+import Marquee from './components/Marquee';
+import ChristmasText from './components/ChristmasText';
 
 function App() {
-
-  const panelRef = React.useRef()
-
-  const width = useElementWidth(panelRef)
 
   return (
     <div style={styles.container}>
       <div style={styles.contents}>
-        <div ref={panelRef} style={styles.panel}>
-          <span>Panel: {width}</span>
+        <div style={styles.panel}>
+          <Marquee>
+            <ChristmasText>MERRY CHRISTMAS & HAPPY NEW YEAR 2023!</ChristmasText>
+          </Marquee>
         </div>
       </div>
     </div>
@@ -29,14 +30,22 @@ const styles = {
     alignItems: 'center',
   },
   contents: {
-    backgroundColor: 'darkgreen',
+    backgroundImage: 'linear-gradient(to bottom, transparent, #FFD700)',
     position: 'relative',
-    width: '50%',
+    width: '80%',
+    maxWidth: '500px',
+    height: '2em',
+    display: 'flex',
+    alignItems: 'center',
   },
   panel: {
-    backgroundColor: 'olive',
+    //backgroundColor: 'olive',
     position: 'relative',
     width: '100%',
+    height: '2em',
+    overflow: 'hidden',
+    fontSize: '2em',
+    textShadow: '2px 2px 3px #3339',
   }
 }
 
