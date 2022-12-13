@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+react-ui-components
+===============
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a collection of `React` `components` and `custom hooks` that are based from generated code using `OpenAI` [ChatGPT](https://openai.com/blog/chatgpt/) to demonstrate how a developer could take advantage and benefit from it to make their work more productive by helping them build things.
 
-## Available Scripts
+# Development
 
-In the project directory, you can run:
+This React project is bootstrapped using [Create React App](https://create-react-app.dev/) since I am using [Storybook](https://storybook.js.org/docs/react/get-started/install) to develop the components.
 
-### `npm start`
+# UI Components
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+These are the list of components and the screenshots of `prompts` and exhcanges used to generate them from `ChatGPT`. The generated codes are then modified and updated to make suit my expectations.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Use `Storybook` to check the components.
 
-### `npm test`
+## PhoneInput
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![screenshot 1](./docs/phoneinput1.png "screenshot 1")
+![screenshot 2](./docs/phoneinput2.png "screenshot 2")
+![screenshot 3](./docs/phoneinput3.png "screenshot 3")
+![screenshot 4](./docs/phoneinput4.png "screenshot 4")
+![screenshot 5](./docs/phoneinput5.png "screenshot 5")
+![screenshot 6](./docs/phoneinput6.png "screenshot 6")
+![screenshot 7](./docs/phoneinput7.png "screenshot 7")
+![screenshot 8](./docs/phoneinput8.png "screenshot 8")
 
-### `npm run build`
+# Custom Hooks
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+These are the list of custom hooks and the screenshots of `prompts` and exhcanges used to generate them from `ChatGPT`. The generated codes are then modified and updated to make suit my expectations.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## useElementWidth
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![screenshot 1](./docs/useelementwidth1.png "screenshot 1")
+![screenshot 2](./docs/useelementwidth2.png "screenshot 2")
 
-### `npm run eject`
+# Setup
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Clone the repository, install the dependencies and run
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```sh
+$ git clone https://github.com/supershaneski/react-ui-components.git myproject
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+$ cd myproject
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+$ npm install
 
-## Learn More
+$ npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Open your browser to `http://localhost:3000/` or some other port depending on the availability.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To run `Storybook`
 
-### Code Splitting
+```sh
+$ npm run storybook
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Your browser should automatically open to `http://localhost:6006`.
