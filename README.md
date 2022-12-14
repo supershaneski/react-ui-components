@@ -41,6 +41,14 @@ Use `Storybook` to check the components.
 ![screenshot 5](./docs/marquee5.png "screenshot 5")
 ![screenshot 6](./docs/marquee6.png "screenshot 6")
 
+## BeepButton
+
+![screenshot 1](./docs/beepbutton1.png "screenshot 1")
+![screenshot 2](./docs/beepbutton2.png "screenshot 2")
+![screenshot 3](./docs/beepbutton3.png "screenshot 3")
+
+As for the last prompt, I was able to copy the generated code before the `Network Error` occurred. I tried is several times but it always ended up with the same error.
+
 # Custom Hooks
 
 These are the list of custom hooks and the screenshots of `prompts` and exhcanges used to generate them from `ChatGPT`. The generated codes are then modified and updated to make suit my expectations.
