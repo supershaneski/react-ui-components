@@ -9,7 +9,7 @@ This React project is bootstrapped using [Create React App](https://create-react
 
 # UI Components
 
-These are the list of components and the screenshots of `prompts` and exhcanges used to generate them from `ChatGPT`. The generated codes are then modified and updated to make suit my expectations.
+These are the list of components and the screenshots of `prompts` and exchanges used to generate them from `ChatGPT`. The code might have been updated and modified to make it work.
 
 Use `Storybook` to check the components.
 
@@ -51,7 +51,7 @@ As for the last prompt, I was able to copy the generated code before the `Networ
 
 # Custom Hooks
 
-These are the list of custom hooks and the screenshots of `prompts` and exhcanges used to generate them from `ChatGPT`. The generated codes are then modified and updated to make suit my expectations.
+These are the list of custom hooks and the screenshots of `prompts` and exchanges used to generate them from `ChatGPT`. The code might have been updated and modified to make it work.
 
 ## useElementWidth
 
