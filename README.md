@@ -9,7 +9,7 @@ This React project is bootstrapped using [Create React App](https://create-react
 
 # UI Components
 
-These are the list of components and the screenshots of `prompts` and exchanges used to generate them from `ChatGPT`. The code might have been updated and modified to make it work.
+These are the list of components and the screenshots of prompts and exchanges used to generate them from `ChatGPT`. The code might have been updated and modified to make it work.
 
 Use `Storybook` to check the components.
 
@@ -47,11 +47,11 @@ Use `Storybook` to check the components.
 ![screenshot 2](./docs/beepbutton2.png "screenshot 2")
 ![screenshot 3](./docs/beepbutton3.png "screenshot 3")
 
-As for the last prompt, I was able to copy the generated code before the `Network Error` occurred. I tried is several times but it always ended up with the same error.
+As for the last prompt, the unfinished response was removed when the network error occurred. I tried it again and was able to copy the code generated before the network error occurred again.
 
 # Custom Hooks
 
-These are the list of custom hooks and the screenshots of `prompts` and exchanges used to generate them from `ChatGPT`. The code might have been updated and modified to make it work.
+These are the list of custom hooks and the screenshots of prompts and exchanges used to generate them from `ChatGPT`. The code might have been updated and modified to make it work.
 
 ## useElementWidth
 
